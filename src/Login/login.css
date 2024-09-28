@@ -1,0 +1,42 @@
+.addUser {
+  width: 25%;
+  margin: 50px auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 1px rgb(0, 0, 0, 0.1);
+}
+.addUserForm .inputGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.addUserForm .inputGroup label {
+  margin-top: 10px;
+}
+
+.addUserForm .inputGroup input {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.inputGroup button {
+  margin-top: 20px;
+}
+
+.login {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login .btn.btn-success {
+  width: 50%;
+}
+
+.addUser h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  /* background-color: beige;
+    border-radius: 5px; */
+}
