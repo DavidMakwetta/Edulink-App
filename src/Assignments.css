@@ -1,0 +1,66 @@
+.assignments-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.assignment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+
+.questions-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.question-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px; 
+    margin-bottom: 15px; 
+    transition: box-shadow 0.3s;
+    line-height: 1.5; 
+}
+
+.question-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.edit-button {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.edit-button:hover {
+    background-color: #e0a800;
+}

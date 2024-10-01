@@ -1,0 +1,87 @@
+.profile-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .edit-button {
+    margin-bottom: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #218838;
+  }
+  
+  .profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    border-color: #80bdff;
+    outline: none;
+  }
+  
+  .profile-details {
+    margin-top: 20px;
+  }
+  
+  .profile-details h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .profile-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .profile-details li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e1e1e1;
+    color: #555;
+  }
+  
+  .profile-details li strong {
+    color: #333;
+  }
+  
